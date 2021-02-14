@@ -365,17 +365,14 @@ header.fl-hdr {
 .fl-dsc-sec-3-img {
     width: 37%;
     float: right;
-    text-align: center;
+    text-align: right;
     margin-top: -45px;
-    padding-right: 5px;
-}
-.fl-dsc-sec-3-img img{
-    width: 100%;
+    padding-right: 0;
 }
 .fl-dsc-sec-3-dsc {
     width: 63%;
     float: left;
-    padding-right: 20px;
+    padding-right: 8px;
 }
 .fl-sec-3-profile-wrp ul{
     margin: 0 -10px;
