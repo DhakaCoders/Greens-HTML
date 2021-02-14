@@ -507,7 +507,7 @@ header.fl-hdr {
 .fl-sec-4-btm-dsc{
     width: 60%;
     float: left;
-    padding-right: 20px;
+    padding-right: 10px;
 }
 
 .fl-content-sec-5-wrp{
@@ -560,7 +560,7 @@ header.fl-hdr {
 }
 .fl-dsc-sec-6-profile-tp blockquote img {
     position: absolute;
-    right: 20px;
+    right: 10px;
     bottom: -80px;
 }
 .fl-dsc-sec-6-profile-tp blockquote p{
@@ -608,7 +608,7 @@ header.fl-hdr {
 .fl-dsc-sec-8-img {
     width: 40%;
     float: right;
-    margin-top: -190px;
+    margin-top: -185px;
 }
 .fl-dsc-sec-8-dsc{
     width: 60%;
