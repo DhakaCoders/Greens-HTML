@@ -224,9 +224,7 @@ h4 {
 h5 {
     font-size: 22px
 }
-h6{
-    
-}
+
 .h1,.h2,.h3,.h4,.h5,.h6,h1,h2,h3,h4,h5,h6 {
     margin-top: 0;
     line-height: 1.2;
@@ -763,68 +761,46 @@ header.fl-hdr {
     .show-md{
         display: block!important;
     }
-     h1 {
-      font-size: 50px;
+    h1 {
+        font-size: 45px
     }
     h2 {
-      font-size: 40px;
+        font-size: 42px
     }
     h3 {
-      font-size: 36px;
+        font-size: 38px
     }
     h4 {
-      font-size: 26px;
+        font-size: 30px
     }
-    .fl-content-sec-4-dsc-1 p br,
-    .fl-content-sec-2-profile-dsc p br,
-    .special-offer-dsc h1 br{
-        display: none;
+    h5 {
+        font-size: 22px
     }
-    .fl-content-sec-2-profile-wrp ul li:nth-child(2n+2) .fl-content-sec-2-profile-dsc {
-        margin-left: 0;
-        padding-left: 20px;
-        padding: 20px 160px 20px 20px;
-    }
-    .fl-content-sec-4-head span{
-        font-size: 50px;
-        line-height: 38px;
-    }
-    .fl-pkg-grd-col-hdr span{
-        font-size: 40px;
-    }
-    .order1 .fl-pkg-price strong {
-        font-size: 85px;
-        line-height: 72px;
-    }
-    .special-offer-dsc h4{
+
+    .fl-dsc-sec-1-wrp h4{
         font-size: 32px;
     }
-    .special-offer-dsc mark{
-        font-size: 40px;
+    .fl-sec-4-profile-btm h4{
+        font-size: 27px;
     }
-    .special-offer-con-wrp {
-        padding: 35px 30px 30px;
+    .fl-sec-4-btm-img {
+        padding-left: 0;
     }
-    .fl-content-maoney-back-wrp:before{
-        background-size: 100% 100%;
+    .fl-dsc-sec-6-profile-inr {
+        padding: 35px 50px 25px;
     }
+    .fl-dsc-btm {
+        padding: 25px 35px 0;
+    }
+    .fl-sec-7-btm-dsc{
+        max-width: 610px;
+    }
+    
 
 } 
 
 @media(max-width: 1023px){
-    .bnr-overlay{
-        position: absolute;
-        left: 0;
-        right: 0;
-        top: 0;
-        bottom: 0;
-        background: rgba(255,255,255, .5);
-        z-index: 1;
-    }
-    .special-offer-con-wrp{
-        position: relative;
-        z-index: 2;
-    }   
+      
 }
 
 @media(max-width: 991px){
@@ -837,155 +813,102 @@ header.fl-hdr {
     p br{
         display: none;
     }
-     h1 {
-      font-size: 42px;
+
+    h1 {
+        font-size: 40px
     }
     h2 {
-      font-size: 36px;
+        font-size: 38px
     }
     h3 {
-      font-size: 32px;
+        font-size: 36px
     }
     h4 {
-      font-size: 25px;
+        font-size: 28px
     }
-    .fl-content-sec-2-profile-dsc{
-        padding: 25px 10px 25px 155px;
+    h5 {
+        font-size: 22px
     }
-    .fl-content-sec-2-profile-dsc p{
-        font-size: 22px;
+    .fl-dsc-sec-1-wrp h4{
+        font-size: 31px;
     }
-    .fl-content-sec-2-profile-wrp ul li:nth-child(2n+2) .fl-content-sec-2-profile-dsc {
-        padding: 10px 140px 10px 10px;
+    .fl-sec-4-profile-btm h4{
+        font-size: 26px;
     }
-    .fl-content-sec-2-profile-img {
-        width: 200px;
-        height: 200px;
+    .fl-ftr-des {
+        padding: 0 30px;
     }
-    .fl-content-sec-2-profile-inr {
-        padding: 15px 0;
-    }
-    .fl-content-sec-1-des {
+
+    .fl-dsc-sec-3-dsc {
+        width: 100%;
         padding-right: 0;
-        width: 100%;
-        padding-top: 15px;
+        padding-top: 30px;
     }
-    .fl-content-sec-1-btm-img,
-    .fl-content-sec-1-img {
+    .fl-dsc-sec-3-img {
         width: 100%;
+        text-align: center;
+        margin-top: 10px;
+        padding-right: 0;
     }
-    .fl-content-sec-1-img img {
+    .fl-dsc-sec-3-img img {
         width: auto;
     }
-    .fl-content-sec-1-btm-des {
-        padding-right: 0;
-        padding-left: 0;
-        margin-top: 0;
-        padding-top: 20px;
+    .fl-sec-4-btm-img {
         width: 100%;
-    }
-    .fl-content-sec-1-btm-1-img {
-        margin-left: 0;
-        margin-right: 0;
+        padding-top: 0;
         text-align: center;
-        padding-bottom: 10px;
     }
-    .fl-content-sec-2-img {
-        margin-left: 0;
-        margin-right: 0;
-        text-align: center;
+    .fl-sec-4-btm-dsc {
+        width: 100%;
+        padding-right: 0;
+        padding-top: 10px;
+    }
+    .fl-lft-dsc {
+        width: 100%;
+        padding-right: 0;
         padding-top: 15px;
     }
-    .au-content-2-profile-inr {
-        padding: 20px 60px 50px 155px;
-    }
-    .au-content-2-profile-inr {
-        padding: 20px 30px 50px 145px;
-    }
-    .au-content-2-profile-wrp {
-        padding-left: 30px;
-        padding-right: 30px;
-    } 
-    .fl-content-sec-3-img {
+    .fl-rgt-img {
         width: 100%;
         float: right;
         text-align: center;
-    } 
-    .fl-content-sec-3-dsc {
-        width: 100%;
-        float: left;
+        margin-right: 0;
     }
-    .fl-content-sec-4-head span{
-        font-size: 42px;
-        line-height: 35px;
-    }
-    .fl-content-sec-4-img-1 {
-        width: 100%;
-        padding-left: 0;
-    }
-    .fl-content-sec-4-dsc-1 {
-        width: 100%;
-        padding-top: 30px;
-        padding-right: 0;
-    }
-    .fl-content-sec-4-dsc-1 img {
-        padding-top: 30px;
-        width: auto !important;
-        text-align: center;
-        display: table;
-        margin: 0 auto;
-    }
-    .fl-content-sec-4-img-1{
-        text-align: center;
-    }
-    .fl-content-sec-4-img-1 img {
+    .fl-rgt-img img{
         width: auto;
+        height: auto;
     }
-    .fl-content-maoney-back-img {
+    .fl-sec-7-img {
         width: 100%;
-        padding-top: 40px;
         text-align: center;
     }
-    .fl-content-maoney-back-dsc {
+    .fl-sec-7-dsc {
         width: 100%;
-        padding-right: 0;
-        padding-top: 25px;
+        padding-top: 10px;
     }
-    .fl-content-maoney-back-img img {
+    .fl-sec-7-btm-dsc{
+        max-width: 100%;
+    }
+    .fl-dsc-sec-8-img {
+        width: 100%;
+        margin-top: 30px;
+        text-align: center;
+    }
+    .fl-dsc-sec-8-dsc {
+        width: 100%;
+        padding-top: 10px;
+    }
+    .fl-dsc-sec-9-img {
+        width: 100%;
+        margin-right: 0;
+        text-align: center;
+    }
+    .fl-dsc-sec-9-dsc {
+        width: 100%;
+        padding-top: 20px;
+    }
+    .fl-dsc-sec-9-img img {
         width: auto;
-        text-align: center;
-    }
-    .fl-pkg-grd-col-hdr span{
-        font-size: 38px;
-    }
-    .fl-ftr-des {
-        padding: 0 30px 20px;
-    }
-    .special-offer-dsc h4{
-        font-size: 30px;
-    }
-    .special-offer-dsc mark{
-        font-size: 38px;
-    }
-    .special-offer-con-wrp {
-        padding: 35px 20px 30px;
-    }
-    .fl-content-maoney-back-wrp:before{
-        display: none;
-    }
-    .fl-content-maoney-back-wrp {
-        border: 1px solid#146f94;
-        padding: 10px 15px 10px;
-    }
-    .fl-content-sec-2-profile-wrp{
-        padding-bottom: 35px;
-    }
-    
-    .fl-content-maoney-back-dsc h5{
-        text-align: center;
-    }
-    .fl-content-sec-1-btm-img{
-        margin-right: auto;
     }
 }
 
@@ -1009,108 +932,105 @@ header.fl-hdr {
     p{
        margin-bottom: 20px;
     }
+
     h1 {
-      font-size: 40px;
+        font-size: 40px
     }
     h2 {
-      font-size: 35px;
+        font-size: 37px
     }
     h3 {
-      font-size: 30px;
+        font-size: 35px
     }
     h4 {
-      font-size: 24px;
+        font-size: 27px
     }
-    .fl-content-sec-2-profile-img {
-        width: 200px;
-        height: 200px;
-        position: static;
-        transform: none;
-        margin: 0 auto;
-        margin-bottom: 15px;
+    .fl-sec-4-profile-btm h4{
+        font-size: 24px;
     }
-    .fl-content-sec-2-profile-dsc {
-        padding: 0;
-        margin-left: 0;
-        background:transparent;
-        box-shadow: none;
+    .fl-sec-4-profile-dsc h6 {
+        font-size: 22px;
+        padding-top: 20px;
     }
-    .fl-content-sec-2-profile-inr{
-        -ms-box-shadow: 1px 0px 7px 3px rgba(223, 236, 245, .80);
-        -webkit-box-shadow: 1px 0px 7px 3px rgba(223, 236, 245, .80);
-        box-shadow: 1px 0px 7px 3px rgba(223, 236, 245, .80);
-        background:#fff;
-        padding: 30px 15px;
+    .fl-sec-4-profile-dsc {
+        padding-left: 0;
     }
-    .fl-content-sec-2-profile-wrp ul li:nth-child(2n+2) .fl-content-sec-2-profile-dsc {
-        padding: 0;
-        margin-right: 0;
+    .fl-dsc-sec-1-wrp h4{
+        font-size: 28px;
     }
-    .au-content-2-profile-wrp {
-        padding-left: 20px;
-        padding-right: 20px;
-        padding-bottom: 15px;
-    }
-    .au-content-2-profile-dsc p {
+    .fl-dsc-sec-1-wrp span{
         font-size: 20px;
-        line-height: 24px;
-    }
-    .fl-content-sec-4-head span{
-        font-size: 38px;
-        line-height: 32px;
-    }
-    .fl-content-sec-5-dsc-btm-full {
-        padding-bottom: 0px;
-    }
-    .fl-pkg-grd-col-hdr span{
-        font-size: 35px;
-    }
-    .fl-pkg-you-have p {
+        padding: 15px 40px 17px 25px;
         margin-bottom: 30px;
     }
-    .fl-pkg-grd-col-hdr span {
-        padding: 15px 10px 15px;
-    }
     .fl-ftr-des {
-        padding: 0 0px 20px;
+        padding: 0 ;
     }
     .fl-ftr-nav ul li {
         font-size: 18px;
         line-height: 20px;
     }
-    .special-offer-dsc h4{
-        font-size: 28px;
+    .fl-sec-3-profile-wrp ul li {
+        width: 100%;
     }
-    .special-offer-dsc mark{
-        font-size: 35px;
+    .fl-sec-3-profile-img img{
+        width: 100%;
     }
-    .special-offer-dsc h5{
-        font-size: 28px;
+    .fl-dsc-sec-4-profile-wrp ul li:nth-child(2n+1) .fl-sec-4-profile-inr {
+        padding-right: 30px;
     }
-    .special-offer-con-wrp {
-        padding: 35px 15px 15px;
+    .fl-sec-4-profile-inr {
+        padding: 25px 30px 45px 25px;
     }
-    .fl-content-sec-1-wrp {
-        padding-top: 30px;
+    .fl-sec-4-profile-btm blockquote img {
+        right: 15px;
+        bottom: 15px;
+        max-width: 35px;
     }
-    .fl-content-maoney-back-dsc h5{
-        margin-bottom: 20px;
+    .fl-dsc-sec-4-profile-wrp ul li:nth-child(2n+2) .fl-sec-4-profile-btm blockquote img{
+        right: 25px;
     }
-    .fl-content-maoney-back-img{
-        padding-top: 20px;
+    .fl-sec-4-profile-tp {
+        display: block;
     }
-
-    .fl-content-sec-6-wrp {
-        padding-top: 30px;
-        padding-bottom: 50px;
-        
+    .fl-sec-4-profile-img {
+        float: none;
     }
-    
-    .special-offer-dsc mark{
-        padding: 15px 20px 10px;
+    .fl-sec-4-profile-dsc {
+        padding-left: 0;
     }
-    .title-wave{
-        max-width: 300px;
+    .fl-dsc-sec-6-profile-inr {
+        padding: 35px 30px 25px;
+    }
+    .fl-dsc-sec-6-wrp .fl-sec-4-profile-tp{
+        display: flex;
+    }
+    .fl-dsc-sec-6-wrp .fl-sec-4-profile-dsc h6{
+        padding-top: 0;
+        padding-left: 10px;
+    }
+    .fl-sec-4-profile-tp .fl-sec-4-profile-img{
+        float: left;
+    }
+    .fl-dsc-btm {
+        padding: 25px 25px 0;
+    }
+    .fl-dsc-btm p {
+        padding-bottom: 25px;
+    }
+    .fl-dsc-sec-10-btm > a {
+        font-size: 32px;
+        padding: 22px 20px 20px;
+        max-width: 480px;
+        width: 100%;
+        height: 85px;
+        background-position: bottom center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .fl-sec-4-profile-btm blockquote,
+    .fl-dsc-sec-6-profile-tp blockquote{
+        font-size: 19px;
     }
     
 
@@ -1125,145 +1045,157 @@ header.fl-hdr {
         width: 50px;
         height: 50px
     }
-    .special-offer-con-wrp h5 {
-        margin-bottom: 20px;
-    }
-
-    .rare-root-feature-wrp ul li .rare-root-feature-des{
-        border: 5px solid #000;
-    }
 
 
 }
  
 @media(max-width: 575px){
     h1 {
-      font-size: 38px;
+        font-size: 38px
     }
     h2 {
-      font-size: 35px;
+        font-size: 35px
     }
     h3 {
-      font-size: 30px;
+        font-size: 32px
     }
     h4 {
-      font-size: 22px;
+        font-size: 26px
     }
+    .fl-dsc-sec-1-wrp h4{
+        font-size: 27px;
+    }
+    .fl-dsc-sec-1-wrp h4 br{
+        display: none;
+    }
+
     .hdr-left{
-        padding-right: 0;
+        padding-right: 20px;
     }
-    .au-content-2-profile-wrp {
-        padding-left: 0;
-        padding-right: 0;
-        padding-bottom: 15px;
-    }
-    .au-content-2-profile-img {
-        float: left;
-        position: static;
-        width: 100%;
-        text-align: center;
-        padding-bottom: 15px;
-    }
-    .au-content-2-profile-inr {
-        padding: 20px 20px 60px 20px;
-    }
-    .fl-content-sec-4-head span{
-        font-size: 33px;
-        line-height: 28px;
-    }
-    .special-offer-dsc mark{
-        font-size: 32px;
-    }
-    .special-offer-dsc h5{
-        font-size: 26px;
-    }
-    .thank-you-line u{
-        font-size: 22px;
-    }
-    .fl-pkg-price strong {
-        font-size: 95px;
-    }
-    .order1 .fl-pkg-grd-col-fea-img span{
-        max-width: 80px;
-      }
-      .order1 .fl-pkg-grd-col-fea-img span{
-        right: 75px;
-      }
-      .hdr-rgt a {
-        padding: 14px 15px 15px 50px;
+    .secure-img,
+    .hdr-logo {
+        max-width: 180px;
     }
     .hdr-rgt a:after{
         left: 14px;
     }
-    .title-wave {
-        max-width: 260px;
+    .fl-content-sec-1-wrp {
+        padding-top: 50px;
+        padding-bottom: 30px;
     }
+    .fl-dsc-sec-1-wrp span{
+        margin-bottom: 30px;
+    }
+    .fl-sec-4-profile-inr {
+        padding: 25px 20px 45px 20px;
+    }
+    .fl-dsc-sec-4-profile-wrp ul li:nth-child(2n+1) .fl-sec-4-profile-inr {
+        padding-right: 20px;
+    }
+    .fl-dsc-sec-6-profile-inr {
+        padding: 35px 10px 25px;
+    }
+    .fl-dsc-btm {
+        padding: 25px 20px 0;
+    }
+    .fl-dsc-sec-10-btm > a {
+        font-size: 27px;
+        padding: 16px 20px 20px;
+        max-width: 405px;
+        width: 100%;
+        height: 70px;
+    }
+
 
 }
 
 @media(max-width: 479px){
-   .fl-pkg-grd-ftr ul li {
-        padding: 3px 0 20px 35px;
-        font-size: 15px;
-        line-height: 17px;
-    }
-    .special-offer-dsc span {
-        font-size: 16px;
-        line-height: 18px;
-        padding: 18px 15px;
-    }
-    .special-offer-dsc h4 {
-        font-size: 26px;
-    }
-    .order1 .fl-pkg-price strong {
-        font-size: 75px;
-    }
-    .fl-pkg-price:before {
-        left: 2px;
-        top: -13px;
-        font-size: 45px;
-    }
-    .fl-pkg-price sup {
-        right: 13px;
-        font-size: 46px;
-        top: -7px;
-    }
-    .fl-pkg-price sub {
-        position: absolute;
-        right: 18px;
-        font-size: 35px;
-        bottom: 11px;
-    }
-    .hdr-rgt a {
-        padding: 12px 10px 12px 41px;
-        font-size: 16px;
-    }
     .hdr-rgt a:after {
         left: 11px;
         width: 22px;
         background-size: 100% auto;
         height: 22px;
     }
+    .secure-img,
+    .hdr-logo {
+        max-width: 130px;
+    }
+    .fl-content-sec-1-wrp {
+        padding-top: 50px;
+        padding-bottom: 30px;
+    }
+    .fl-sec-3-profile-dsc {
+        padding-left: 15px;
+    }
+    .fl-sec-4-profile-inr {
+        padding: 25px 10px 45px 10px;
+    }
+    .fl-dsc-sec-4-profile-wrp ul li:nth-child(2n+1) .fl-sec-4-profile-inr {
+        padding-right: 10px;
+    }
+    .fl-sec-4-profile-btm h4 {
+        font-size: 22px;
+    }
+    .fl-sec-4-profile-dsc h6 {
+        font-size: 20px;
+    }
+    .fl-dsc-sec-6-wrp .fl-sec-4-profile-tp{
+        display: block;
+    }
+    .fl-sec-4-profile-tp .fl-sec-4-profile-img{
+        float: none;
+        text-align: center;
+    }
+    .fl-dsc-sec-6-wrp .fl-sec-4-profile-dsc h6 {
+        padding-top: 0;
+        padding-left: 0;
+        text-align: center;
+    }
+    .fl-dsc-sec-6-wrp .fl-dsc-sec-6-profile-tp blockquote img {
+        right: 10px;
+        bottom: -40px;
+    }
+    .fl-dsc-sec-10-btm > a {
+        font-size: 20px;
+        padding: 12px 10px 18px;
+        max-width: 280px;
+        width: 100%;
+        height: 45px;
+    }
 
 }
 
 @media(max-width: 459px){
-   .hdr-left, .hdr-rgt{
-    width: auto;
-   } 
    .header-innr{
     justify-content: initial;
    }
    .hdr-rgt{
     margin-left: auto;
    }
-   .hdr-rgt a{
-    font-size: 15px;
-   }
 }
 
 
 @media(max-width: 359px){
-    
+    .secure-img,
+    .hdr-logo {
+        max-width: 120px;
+    }
+    .fl-dsc-sec-1-wrp span {
+        font-size: 19px;
+        padding-right: 20px;
+    }
+    .fl-sec-3-profile-dsc {
+        padding-left: 10px;
+    }
+    .fl-dsc-btm {
+        padding: 25px 10px 0;
+    }
+    .fl-dsc-sec-10-btm > a {
+        font-size: 18px;
+        padding: 11px 10px 16px;
+        max-width: 260px;
+        width: 100%;
+        height: 35px;
+    }
 
 }
