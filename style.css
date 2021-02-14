@@ -541,6 +541,9 @@ header.fl-hdr {
 .fl-dsc-sec-6-wrp{
     margin-top: -175px;
 }
+.fl-dsc-sec-6-profile-text{
+    padding-bottom: 15px;
+}
 .fl-dsc-sec-6-profile-inr {
     background: #fff;
     box-shadow: 0 4px 10px 0 rgb(180 179 179);
