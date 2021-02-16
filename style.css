@@ -778,6 +778,7 @@ header.fl-hdr {
     h5 {
         font-size: 22px
     }
+    .fl-dsc-sec-3-dsc p strong,
     .fl-dsc-sec-9-dsc p br{
         display: none;
     }
