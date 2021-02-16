@@ -944,6 +944,9 @@ header.fl-hdr {
     p{
        margin-bottom: 20px;
     }
+    .fl-dsc-sec-7 .fl-sec-7-dsc p {
+        margin-bottom: 20px;
+    }
 
     h1 {
         font-size: 39px
