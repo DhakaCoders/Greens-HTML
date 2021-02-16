@@ -33,30 +33,6 @@
   font-style: normal;
   font-display: swap;
 }
-@font-face {
-  font-family: 'Barlow-Medium';
-  src: url('assets/fonts/Barlow-Medium/barlow-medium-webfont.woff2') format('woff2'),
-    url('assets/fonts/Barlow-Medium/barlow-medium-webfont.woff') format('woff');
-  font-weight: normal;
-  font-style: normal;
-  font-display: swap;
-}
-@font-face {
-  font-family: 'Barlow-Bold';
-  src: url('assets/fonts/Barlow-Bold/barlow-bold-webfont.woff2') format('woff2'),
-    url('assets/fonts/Barlow-Bold/barlow-bold-webfont.woff') format('woff');
-  font-weight: normal;
-  font-style: normal;
-  font-display: swap;
-}
-*@font-face {
-  font-family: 'Barlow-ExtraBold';
-  src: url('assets/fonts/Barlow-ExtraBold/barlow-extrabold-webfont.woff2') format('woff2'),
-    url('assets/fonts/Barlow-ExtraBold/barlow-extrabold-webfont.woff') format('woff');
-  font-weight: normal;
-  font-style: normal;
-  font-display: swap;
-}
 
 @font-face {
   font-family: 'BarlowCondensed-Regular';
@@ -91,6 +67,24 @@
     src: url('assets/fonts/BarlowCondensed-SemiBold/BarlowCondensed-SemiBold.woff2') format('woff2'),
         url('assets/fonts/BarlowCondensed-SemiBold/BarlowCondensed-SemiBold.woff') format('woff');
     font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'SupriaSansRegular';
+    src: url('assets/SupriaSans-Regular/SupriaSans-Regular.woff2') format('woff2'),
+        url('assets/SupriaSans-Regular/SupriaSans-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'SupriaSansLight';
+    src: url('assets/SupriaSans-Light/SupriaSans-Light.woff2') format('woff2'),
+        url('assets/SupriaSans-Light/SupriaSans-Light.woff') format('woff');
+    font-weight: 300;
     font-style: normal;
     font-display: swap;
 }

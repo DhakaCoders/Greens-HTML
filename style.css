@@ -35,31 +35,6 @@
 }
 
 @font-face {
-  font-family: 'Barlow-Medium';
-  src: url('assets/fonts/Barlow-Medium/Barlow-Medium.woff2') format('woff2'),
-    url('assets/fonts/Barlow-Medium/Barlow-Medium.woff') format('woff');
-  font-weight: normal;
-  font-style: normal;
-  font-display: swap;
-}
-@font-face {
-  font-family: 'Barlow-Bold';
-  src: url('assets/fonts/Barlow-Bold/barlow-bold.woff2') format('woff2'),
-    url('assets/fonts/Barlow-Bold/barlow-bold.woff') format('woff');
-  font-weight: normal;
-  font-style: normal;
-  font-display: swap;
-}
-*@font-face {
-  font-family: 'Barlow-ExtraBold';
-  src: url('assets/fonts/Barlow-ExtraBold/barlow-extrabold.woff2') format('woff2'),
-    url('assets/fonts/Barlow-ExtraBold/barlow-extrabold.woff') format('woff');
-  font-weight: normal;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
   font-family: 'BarlowCondensed-Regular';
   src: url('assets/fonts/BarlowCondensed-Regular/BarlowCondensed-Regular.woff2') format('woff2'),
     url('assets/fonts/BarlowCondensed-Regular/BarlowCondensed-Regular.woff') format('woff');
@@ -91,6 +66,24 @@
     src: url('assets/fonts/BarlowCondensed-SemiBold/BarlowCondensed-SemiBold.woff2') format('woff2'),
         url('assets/fonts/BarlowCondensed-SemiBold/BarlowCondensed-SemiBold.woff') format('woff');
     font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'SupriaSansRegular';
+    src: url('assets/SupriaSans-Regular/SupriaSans-Regular.woff2') format('woff2'),
+        url('assets/SupriaSans-Regular/SupriaSans-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'SupriaSansLight';
+    src: url('assets/SupriaSans-Light/SupriaSans-Light.woff2') format('woff2'),
+        url('assets/SupriaSans-Light/SupriaSans-Light.woff') format('woff');
+    font-weight: 300;
     font-style: normal;
     font-display: swap;
 }
@@ -138,6 +131,7 @@ strong{
 }
 p strong{
     color: #85d04d;
+    font-family: 'Lato-Black';
 }
 .reset-list,
 .ulc {
@@ -363,14 +357,14 @@ header.fl-hdr {
     padding-bottom: 10px;
 }
 .fl-dsc-sec-3-img {
-    width: 37%;
+    width: 35%;
     float: right;
     text-align: right;
     margin-top: -45px;
     padding-right: 0;
 }
 .fl-dsc-sec-3-dsc {
-    width: 63%;
+    width: 65%;
     float: left;
     padding-right: 8px;
 }
@@ -519,7 +513,7 @@ header.fl-hdr {
      color: #fff;
 }
 .fl-rgt-img{
-    width: 39%;
+    width: 38%;
     float: right;
     text-align: right;
     margin-right: -10px;
@@ -529,9 +523,9 @@ header.fl-hdr {
     height: 390px;
 }
 .fl-lft-dsc {
-    width: 61%;
+    width: 62%;
     float: left;
-    padding-right: 10px;
+    padding-right: 0;
     padding-top: 5px;
 }
 
@@ -596,15 +590,20 @@ header.fl-hdr {
     padding-top: 150px;
 }
 .fl-sec-7-img{
-    width: 45%;
+    width: 42%;
     float: right;
 }
 .fl-sec-7-dsc{
-    width: 55%;
+    width: 58%;
     float: left;
     padding-top: 5px;
 }
-
+.fl-dsc-sec-7 .fl-sec-7-dsc{
+    padding-top: 0;
+}
+.fl-dsc-sec-7 .fl-sec-7-dsc p {
+    margin-bottom: 24px;
+}
 .fl-content-sec-8-wrp{
     padding-top: 10px;
 }
@@ -694,12 +693,12 @@ header.fl-hdr {
     padding: 40px 0 35px;
     font-size: 14px;
     line-height: 19px;
-    font-family: 'LatoRegular';
 }
 .fl-footer-wrap p{
     font-size: 14px;
     line-height: 20px;
     margin-bottom: 20px;
+    font-family: 'LatoRegular';
 }
 .fl-ftr-nav ul{
     padding-bottom: 20px;
@@ -727,9 +726,9 @@ header.fl-hdr {
     opacity: .8;
 }
 .fl-ftr-nav ul li{
-    padding: 0 8px;
+    padding: 0 18px;
     position: relative;
-    font-family: 'LatoRegular';
+     font-family: 'LatoRegular';
 }
 .fl-ftr-nav ul li:not(:last-child):after {
     content: "";
@@ -778,6 +777,9 @@ header.fl-hdr {
     }
     h5 {
         font-size: 22px
+    }
+    .fl-dsc-sec-9-dsc p br{
+        display: none;
     }
 
     .fl-dsc-sec-1-wrp h4{
@@ -912,6 +914,12 @@ header.fl-hdr {
     }
     .fl-dsc-sec-9-img img {
         width: auto;
+    }
+    .fl-dsc-sec-7 .fl-sec-7-dsc p {
+        margin-bottom: 26px;
+    }
+    .fl-dsc-sec-7 .fl-sec-7-img{
+        padding-bottom: 20px;
     }
 }
 
