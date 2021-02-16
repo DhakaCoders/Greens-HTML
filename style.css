@@ -300,7 +300,7 @@ header.fl-hdr {
     font-family: 'BarlowCondensed-Medium'; 
     text-transform: uppercase;
     font-size: 24px;
-    margin-top: 45px;
+    margin-top: 48px;
     width: 100%
 }
 .fl-shipping .two_sec>h4 {
@@ -546,9 +546,12 @@ header.fl-hdr {
     box-shadow: 0 4px 10px 0 rgb(180 179 179);
     -ms-box-shadow: 0 4px 10px 0 rgb(180 179 179);
     -webkit-box-shadow: 0 4px 10px 0 rgb(180 179 179);
-    border-radius: 10px 50px 10px 10px;
+    border-radius: 10px 70px 10px 10px;
     padding: 35px 70px 25px;
     margin-bottom: 35px;
+}
+.fl-dsc-sec-6-profile-inr:last-child{
+    border-radius: 10px 10px 10px 70px;
 }
 .fl-dsc-sec-6-profile-tp blockquote{
     padding: 0;
@@ -934,7 +937,7 @@ header.fl-hdr {
     }
 
     h1 {
-        font-size: 40px
+        font-size: 39px
     }
     h2 {
         font-size: 37px
@@ -1051,13 +1054,13 @@ header.fl-hdr {
  
 @media(max-width: 575px){
     h1 {
-        font-size: 38px
+        font-size: 37px
     }
     h2 {
-        font-size: 35px
+        font-size: 34px
     }
     h3 {
-        font-size: 32px
+        font-size: 31px
     }
     h4 {
         font-size: 26px
