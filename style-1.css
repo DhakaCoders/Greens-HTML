@@ -4,6 +4,7 @@
     background-position: right center;
     background-size: cover;
     background-repeat: no-repeat;
+    position: relative;
 }
 .fl-gd-dsc-sec-1-wrp{
 	padding-left: 80px;
@@ -94,6 +95,9 @@
     background-size: 100% 100%;
     background-position: center center;
 }
+.fl-gd-sec-2-energy-btn a:hover{
+	opacity: 0.8;
+}
 
 .fl-gd-sec-2-dsc-btm-dsc span {
     display: inline-block;
@@ -107,6 +111,7 @@
     margin-bottom: 15px;
     margin-left: -10px;
 }
+
 .fl-gd-sec-2-dsc-btm-wrp {
     padding-top: 30px;
     padding-bottom: 5px;
@@ -293,6 +298,14 @@
 	.fl-gd-sec-4-dsc-m-1 {
 	    width: 100%;
 	    padding-right: 0;
+	}
+	.overlay-bg-white{
+	    position: absolute;
+	    left: 0;
+	    top: 0;
+	    bottom: 0;
+	    right: 0;
+	    background: rgba(255,255,255, 0.5);
 	}
 	
 

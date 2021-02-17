@@ -130,7 +130,7 @@ strong{
   font-family: 'LatoBold';   
 }
 p strong{
-    color: #85d04d;
+    color: #79b34d;
     font-family: 'Lato-Black';
 }
 p em{
@@ -725,7 +725,7 @@ header.fl-hdr {
     padding-right: 0;
 }
 .fl-ftr-nav ul li a{
-    color: #dcdcdc;
+    color: #fff;
 }
 .fl-ftr-nav ul li a:hover,
 .fl-ftr-top-sec ul li a:hover{
