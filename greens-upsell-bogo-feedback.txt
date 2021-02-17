@@ -1,0 +1,78 @@
+Desktop
+---------------------->>
+1. https://prnt.sc/zk6t1v
+	lazy load missing onek jaygay
+
+2. https://prnt.sc/zk7ju6
+	text brak mileni
+
+3. https://prnt.sc/zk8dnp
+	italic text ar jonno font-family missing
+
+4. https://prnt.sc/zk8q4c
+	.jpg use korle problem hobena maybe. tai amra .jpg use korte pari.
+
+	https://prnt.sc/zk8zzi
+		jkhane jkhane .jpg use kora jabe, sekhane jpg use korbo.
+
+5. https://prnt.sc/zkct41
+	ai block ar redius 2 ta miline
+
+
+6. https://prnt.sc/zkcwl8
+	shadow color gulo r aktu halka hobe, deap hoye geche
+
+
+7. https://prnt.sc/zkdbz1
+	hover ar opcatiy ata dile valo lagteche.
+
+
+8. https://prnt.sc/zkdfv5
+	gap gulo mileni
+
+
+9. https://prnt.sc/zkdl6s
+	color mileni
+
+
+10. https://prnt.sc/zkea85
+	linnk hobena
+
+
+
+
+Responsive
+--------------------------
+
+1. https://prnt.sc/zkeofo
+	left and right a gap ta kharap dekhasche, tai 1199px a width 100% korte hobe
+
+
+2. https://prnt.sc/zkgfqd
+	767px a akta overlay bg dite hobe bg img tar upore.
+
+	ai site ar moto--> https://prnt.sc/zkgime
+	text gulo jate sundor kore pora jay.
+
+3. https://prnt.sc/zkiess
+	ai gap ta kharap dekhasche, 991px a full kore daw.
+
+
+4. https://prnt.sc/zkipk5
+	575px a border width ta 5 px dile valo lagbe
+
+
+5. https://prnt.sc/zkjadu
+	ai gap ta bara diye img ta margin-top kore upore rakhle valo lagbe desktop ar moto
+
+6. https://prnt.sc/zkjj9t
+	lege geche, button ar width ta r aktu barate pari 479px a
+
+7. https://prnt.sc/zkjoyn
+	https://prnt.sc/zkju0v
+	left and right gap ta kom hoye geche, r aktu beshi dite hobe
+
+
+
+N.B--> .htaccess file change kore dite hobe
+
