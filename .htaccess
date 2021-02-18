@@ -76,6 +76,26 @@ Header unset X-Powered-By
 # Set XSS Protection header
 Header set X-XSS-Protection "1; mode=block"
 </IfModule>
+
+# Strict-Transport-Security
+<IfModule mod_headers.c>
+Header set Strict-Transport-Security "max-age=31536000; includeSubDomains; preload" env=HTTPS
+</IfModule>
+
+# X-Content-Type-Options
+<IfModule mod_headers.c>
+    Header set X-Content-Type-Options "nosniff"
+</IfModule>
+
+# X-Frame-Options
+<IfModule mod_headers.c>
+    Header set X-Frame-Options "SAMEORIGIN"
+</IfModule>
+
+# Content-Security-Policy - Example 3
+<IfModule mod_headers.c>
+    Header set Content-Security-Policy "default-src http: https:; font-src http: https: data:; img-src http: https: data:; script-src http: https: 'unsafe-inline' 'self'; style-src http: https: 'unsafe-inline' 'self'"
+</IfModule>
 ###################################################################################
 
 
