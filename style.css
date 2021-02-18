@@ -756,7 +756,7 @@ header.fl-hdr {
 }
 .fl-copyright p{
     font-size: 14px;
-    line-height: 1;
+    line-height: 1.3;
     color: #fff;
     margin-bottom: 30px;
 }
@@ -807,7 +807,9 @@ header.fl-hdr {
     .fl-sec-7-btm-dsc{
         max-width: 610px;
     }
-    
+    .fl-sec-3-profile-innr{
+        min-height: 160px;
+    }
 
 } 
 
@@ -1063,7 +1065,17 @@ header.fl-hdr {
         right: 0;
         background:rgba(255,255,255, 0.3);
     }
-    
+    .bnr-overlay-xs{
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        background: rgba(0,0,0,.4);
+    }
+    .fl-sec-3-profile-innr {
+        min-height: auto;
+    }
 
 }
 
@@ -1076,7 +1088,6 @@ header.fl-hdr {
         width: 50px;
         height: 50px
     }
-
 
 }
  
@@ -1140,8 +1151,8 @@ header.fl-hdr {
         border:5px solid#79b34d;
     }
     .fl-sec-4-profile-inr {
-        padding-left: 15px;
-        padding-right: 15px;
+        padding-left: 20px!important;
+        padding-right: 20px!important;
     }
 
 
@@ -1200,6 +1211,22 @@ header.fl-hdr {
         width: 100%;
         height: 45px;
     }
+    .fl-ftr-nav ul li{
+        padding-left: 17px;
+        padding-right: 17px;
+    }
+    .fl-sec-3-profile-innr{
+        padding-top: 15px;
+        padding-bottom: 20px;
+    }
+    .fl-sec-3-profile-img,
+    .fl-sec-3-profile-dsc{
+        width: 100%;
+        padding-bottom: 20px;
+        padding: 0 15px;
+        text-align: center;
+    }
+    .fl-sec-3-profile-img img{width: auto; margin-bottom: 10px;}
 
 }
 
@@ -1231,7 +1258,7 @@ header.fl-hdr {
     .fl-dsc-sec-10-btm > a {
         font-size: 18px;
         padding: 11px 10px 16px;
-        max-width: 260px;
+        max-width: 270px;
         width: 100%;
         height: 35px;
     }
