@@ -439,9 +439,12 @@ header.fl-hdr {
 }
 .fl-sec-4-profile-img{
     float: left;
+    width: 11%;
 }
 .fl-sec-4-profile-dsc{
     padding-left: 15px;
+    width: 89%;
+    float: right;
 }
 .fl-sec-4-profile-dsc h6{
     font-size: 24px;
@@ -1020,9 +1023,12 @@ header.fl-hdr {
     }
     .fl-sec-4-profile-img {
         float: none;
+        width: 100%;
+        text-align: center;
     }
     .fl-sec-4-profile-dsc {
         padding-left: 0;
+        width: 100%;
     }
     .fl-dsc-sec-6-profile-inr {
         padding: 35px 30px 25px;
