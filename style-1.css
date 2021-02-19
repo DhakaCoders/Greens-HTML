@@ -21,7 +21,7 @@
 	text-align: center;
 	margin-bottom: 23px;
 }
-.fl-gd-sec-1-dsc a{
+.fl-gd-sec-1-dsc span{
 	display: table;
 	font-size: 23px;
 	line-height: 1.3;
@@ -36,9 +36,7 @@
 	padding: 17px 20px 30px;
 	margin: 0 auto;
 }
-.fl-gd-sec-1-dsc a:hover{
-	opacity: .7;
-}
+
 
 .fl-gd-sec-2-energy-cntlr{
 	max-width: 730px;
@@ -324,7 +322,7 @@
 	.fl-gd-sec-1-dsc{
 		margin: 0 auto;
 	}
-	.fl-gd-sec-1-dsc a {
+	.fl-gd-sec-1-dsc span {
 	    font-size: 22px;
 	    max-width: 480px;
 	    height: 90px;
@@ -380,7 +378,7 @@
     .fl-gd-sec-1-dsc h1{
     	font-size: 37px;
     }
-    .fl-gd-sec-1-dsc a {
+    .fl-gd-sec-1-dsc span{
 	    font-size: 20px;
 	    max-width: 420px;
 	    height: 85px;
@@ -412,7 +410,7 @@
 }
 
 @media(max-width: 479px){
-    .fl-gd-sec-1-dsc a {
+    .fl-gd-sec-1-dsc span{
 	    font-size: 17px;
 	    max-width: 320px;
 	    height: 80px;
