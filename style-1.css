@@ -233,6 +233,7 @@
 	.fl-gd-sec-2-dsc strong{
 		font-size: 29px;
 	}
+	.fl-gd-sec-1-dsc h1 br,
 	.fl-gd-sec-4-dsc-m-1 p strong br{
 		display: none;
 	}
