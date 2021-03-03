@@ -655,7 +655,7 @@ header.fl-hdr {
     max-width: 825px;
     width: 100%;
     margin: 0 auto;
-    padding-top: 10px;
+    padding-top: 35px;
     padding-bottom: 35px;
 }
 
@@ -764,6 +764,46 @@ header.fl-hdr {
     margin-bottom: 30px;
 }
 
+.fl-dsc-sec-10-middle-cntlr{
+    background:#243241;
+    border-radius: 20px;
+    padding: 50px 0 40px 55px;
+}
+.fl-dsc-sec-10-middle-cntlr h1{
+    color: #fff;
+    text-align: center;
+    font-family: 'BarlowCondensed-Bold';
+    margin-bottom: -10px;
+}
+.fl-dsc-sec-10-middle-dsc p strong,
+.fl-dsc-sec-10-middle-dsc p{
+    color: #fff;
+}
+.fl-dsc-sec-10-middle-dsc p:first-child {
+    margin-right: -66px;
+}
+.fl-dsc-sec-10-middle-img{
+    width: 54%;
+    float: right;
+    padding-left: 10px;
+}
+.fl-dsc-sec-10-middle-dsc{
+    width: 46%;
+    float: left;
+    padding-top: 70px;
+}
+.fl-dsc-sec-10-middle-cntlr .fl-dsc-sec-10-btm {
+    padding-top: 20px;
+    padding-bottom: 0;
+}
+.fl-dsc-sec-10-middle-cntlr .fl-dsc-sec-10-btm > a{
+    margin-bottom: 0;
+}
+
+
+
+
+
 
 @media(max-width: 1199px){
     .hide-md{
@@ -812,6 +852,16 @@ header.fl-hdr {
     }
     .fl-sec-3-profile-innr{
         min-height: 160px;
+    }
+    .fl-dsc-sec-10-middle-dsc {
+        padding-top: 55px;
+        padding-right: 10px;
+    }
+    .fl-dsc-sec-10-middle-cntlr h1{
+        margin-bottom: 0;
+    }
+    .fl-dsc-sec-10-middle-cntlr h1 br{
+        display: none;
     }
 
 } 
@@ -954,6 +1004,27 @@ header.fl-hdr {
     .fl-dsc-sec-4-profile-wrp ul li:nth-child(2n+2) .fl-sec-4-profile-btm blockquote img{
         right: 25px;
     }
+    .fl-dsc-sec-10-middle-img {
+        width: 100%;
+        float: none;
+        padding-left: 0;
+        text-align: center;
+        padding-top: 30px;
+    }
+    .fl-dsc-sec-10-middle-dsc {
+        padding-top: 20px;
+        width: 100%;
+        padding-right: 0;
+    }
+    .fl-dsc-sec-10-middle-dsc p:first-child {
+        margin-right: 0;
+    }
+    .fl-dsc-sec-10-middle-cntlr {
+        padding: 50px 35px 40px;
+    }
+    .fl-dsc-sec-10-middle-cntlr .fl-dsc-sec-10-btm {
+        padding-top: 10px;
+    }
 }
 
 @media (max-width:830px){
@@ -1082,6 +1153,9 @@ header.fl-hdr {
     .fl-sec-3-profile-innr {
         min-height: auto;
     }
+    .fl-dsc-sec-10-middle-cntlr {
+        padding: 50px 20px 40px 20px;
+    }
 
 }
 
@@ -1151,7 +1225,7 @@ header.fl-hdr {
         padding: 16px 20px 20px;
         max-width: 405px;
         width: 100%;
-        height: 70px;
+        height: 69px;
     }
     .fl-sec-4-profile-inr{
         border:5px solid#79b34d;
@@ -1211,9 +1285,9 @@ header.fl-hdr {
         bottom: -40px;
     }
     .fl-dsc-sec-10-btm > a {
-        font-size: 20px;
-        padding: 12px 10px 18px;
-        max-width: 300px;
+        font-size: 18px;
+        padding: 12px 10px 16px;
+        max-width: 260px;
         width: 100%;
         height: 45px;
     }
@@ -1262,11 +1336,11 @@ header.fl-hdr {
         padding: 25px 10px 0;
     }
     .fl-dsc-sec-10-btm > a {
-        font-size: 18px;
-        padding: 11px 10px 16px;
-        max-width: 270px;
+        font-size: 16px;
+        padding: 10px 5px 14px;
+        max-width: 230px;
         width: 100%;
-        height: 35px;
+        height: 30px;
     }
 
 }

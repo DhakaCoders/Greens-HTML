@@ -185,15 +185,26 @@
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center center;
-	height: 340px;
+	height: 400px;
 	position: relative;
+}
+.fl-gd-dsc-5-head h1{
+	text-align: center;
+	color: #fff;
+	padding-top: 35px;
+	font-family: 'BarlowCondensed-Bold';
+}
+.fl-dsc-sec-10-btm h1 {
+    font-family: 'BarlowCondensed-Bold';
+    text-align: center;
+    margin-bottom: 30px;
 }
 .fl-gd-dsc-sec-5-wrp{
     text-align: center;
     position: absolute;
     left: 0;
     right: 0;
-    top: 85px;
+    top: 180px;
 }
 .fl-gd-content-sec-6-wrp{
 	padding-top:195px;
@@ -227,6 +238,17 @@
 	}
 	.fl-gd-sec-4-img{
 		bottom: -250px;
+	}
+	.fl-gd-dsc-5-head h1 br{
+		display: none;
+	}
+	.fl-gd-dsc-5-head{
+		max-width: 520px;
+		width: 100%;
+		margin: 0 auto;
+	}
+	.fl-gd-dsc-sec-5-wrp{
+		top: 170px;
 	}
     
 
@@ -305,6 +327,12 @@
 	    right: 0;
 	    background: rgba(255,255,255, 0.5);
 	}
+	.fl-gd-dsc-sec-5-wrp {
+	    top: 155px;
+	}
+	.fl-gd-content-sec-5-wrp{
+		height: 385px;
+	}
 	
 
     
@@ -359,10 +387,10 @@
 	    height: 75px;
 	}
 	.fl-gd-content-sec-5-wrp {
-	    height: 300px;
+	    height: 370px;
 	}
 	.fl-gd-dsc-sec-5-wrp {
-	    top: 70px;
+	    top: 150px;
 	    max-width: 530px;
 	    width: 100%;
 	    margin: 0 auto;
@@ -395,10 +423,10 @@
 	    height: 70px;
 	}
 	.fl-gd-content-sec-5-wrp {
-	    height: 250px;
+	    height: 320px;
 	}
 	.fl-gd-dsc-sec-5-wrp {
-	    top: 50px;
+	    top: 140px;
 	    max-width: 450px;
 	}
 	.fl-gd-content-sec-6-wrp {
@@ -430,14 +458,21 @@
 	    align-items: center;
 	}
 	.fl-gd-content-sec-5-wrp {
-	    height: 170px;
+	    height: 290px;
+	}
+	.fl-gd-dsc-5-head{
+		max-width: 320px;
+		width: 100%;
 	}
 	.fl-gd-dsc-sec-5-wrp {
-	    top: 40px;
+	    top: 175px;
 	    max-width: 300px;
 	}
 	.fl-gd-content-sec-6-wrp {
 	    padding-top: 100px;
+	}
+	.fl-gd-dsc-5-head h1{
+		padding-top: 30px;
 	}
 
 }
@@ -448,9 +483,6 @@
 
 
 @media(max-width: 359px){
-    .fl-gd-content-sec-5-wrp {
-	    height: 170px;
-	}
 	.fl-gd-content-sec-6-wrp {
 	    padding-top: 95px;
 	}
